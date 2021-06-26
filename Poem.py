@@ -30,7 +30,7 @@ with open('./Poem.txt', "r") as poem:
 
     # To check the "word" which is repeated most
     for a in eachWord:
-        #If a["times"] is equal to u max times repeating then it appends that word
+        #If a["times"] is equal to max times repeating then it appends that word
         if a["times"] == max(maxValue):
             maxTimesAppearing.append(a["word"])
 
